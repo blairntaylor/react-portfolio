@@ -6,11 +6,11 @@ import Image3 from "../components/img/img3.jpg";
 function Images() {
   return (
     <div className="row">
-      <div className="pic-container">
-        <img src={Image1} alt="" width="250" />
-        <img src={Image2} alt="" width="250" />
-        <img src={Image3} alt="" width="250" />
-      </div>
+      <pic-container>
+        <img src={Image1} alt="" height="350" />
+        <img src={Image2} alt="" height="350" />
+        <img src={Image3} alt="" height="350" />
+      </pic-container>
     </div>
   );
 }
