@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Images from "./components/Images";
 import Wrapper from "./components/Wrapper";
 import Profile from "./components/Profile";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Wrapper>
           <Route exact path="/" component={Images} />
           <Route exact path="/profile" component={Profile} />
+          <Route exact path="/portfolio" component={Portfolio} />
         </Wrapper>
         <Footer />
       </div>

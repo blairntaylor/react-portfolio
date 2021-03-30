@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           PUT LOGO HERE
         </a>
         <button
@@ -33,12 +33,12 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/portfolio">
                 Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/">
                 Contact
               </a>
             </li>
