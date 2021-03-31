@@ -33,7 +33,10 @@ pic-container {
 
 about-container {
   background-color: #ddbea9 !important;
-  max-width: 60%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 2rem;
   padding: 3rem;
 }
 
@@ -44,14 +47,15 @@ about-container {
 }
 
 .card {
+  background-color: #ddbea9 !important;
   background-size: cover;
   background-position: center;
   background-clip: content-box;
-  border: 6px solid white;
-  height: 400px;
-  width: 400px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: 6px solid;
+  height: 300px;
+  width: 300px;
   position: relative;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 2rem;
+  padding: 1rem;
 }

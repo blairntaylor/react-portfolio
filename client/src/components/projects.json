@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "image": "Image here",
+      "title": "Galaxy Getaway",
+      "description": "Login to create your own personalized space travel.",
+      "link": "Link here"
+    },
+    {
+      "id": 2,
+      "image": "Image here",
+      "title": "Workout Tracker",
+      "description": "....",
+      "link": "Link here"
+    },
+    {
+      "id": 3,
+      "image": "Image here",
+      "title": "Code Quiz",
+      "description": "....",
+      "link": "Link here"
+    },
+    {
+      "id": 4,
+      "image": "Image here",
+      "title": "Day Planner",
+      "description": "....",
+      "link": "Link here"
+    },
+    {
+      "id": 5,
+      "image": "Image here",
+      "title": "README Generator",
+      "description": "....",
+      "link": "Link here"
+    },
+    {
+      "id": 6,
+      "image": "Image here",
+      "title": "Progressive Budget",
+      "description": "....",
+      "link": "Link here"
+    }
+  ]

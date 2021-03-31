@@ -1,16 +1,25 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
   return (
-    <>
-      <div className="card">
-        <title>
-          <h1>Title</h1>
-        </title>
-        <description>The description</description>
-        <link>Link to GitHub</link>
+    <div className="card">
+      <div className="img-container">
+        <img alt={props.name} src={props.image} />
       </div>
-    </>
+      <div className="content">
+        <ul>
+          <li>
+            <strong>Title:</strong> {props.title}
+          </li>
+          <li>
+            <strong>Description:</strong> {props.description}
+          </li>
+          <li>
+            <strong>Link: GitHub</strong> {props.link}
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 }
 
