@@ -5,7 +5,7 @@ function Profile() {
   return (
     <div className="row">
       <about-container>
-        <img src={Image2} alt="" height="250" />
+        <img src={Image2} alt="Blair Taylor" height="350" />
         <h3> Blair Taylor</h3>
         <h4>
           <a href="mailto:blairntaylor@gmail.com&subject=Website Inquiry">

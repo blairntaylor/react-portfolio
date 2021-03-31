@@ -9,7 +9,7 @@ class Portfolio extends Component {
   render() {
     return (
       <Wrapper>
-        {this.state.projects.map((project) => (
+        {this.state.projects.map((projects) => (
           <Card
             id={projects.id}
             image={projects.image}

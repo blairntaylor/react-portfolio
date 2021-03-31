@@ -15,7 +15,9 @@ function Card(props) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Link: GitHub</strong> {props.link}
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
+              <strong>Link: GitHub</strong>
+            </a>
           </li>
         </ul>
       </div>
