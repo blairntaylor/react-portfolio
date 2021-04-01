@@ -1,47 +1,48 @@
 [
     {
       "id": 1,
-      "image": "project1.png",
+      "image": "../img/galaxypic.png",
       "title": "Galaxy Getaway",
       "description": "Login to create your own personalized space travel.",
-      "GitHub": "https://github.com/seff0/DUFullStackProject2",
-      "Heroku": "https://galaxy-getaway.herokuapp.com/"
+      "github": "https://github.com/seff0/DUFullStackProject2",
+      "heroku": "https://galaxy-getaway.herokuapp.com/"
     },
     {
       "id": 2,
-      "image": "project2.png",
+      "image": "../img/workoutpic.png",
       "title": "Workout Tracker",
       "description": "Create a workout tracker app with a Mongo database, Mongoose schema, and routes using Express.",
-      "GitHub": "https://blairntaylor.github.io/workout-tracker/",
-      "Heroku": "https://vast-retreat-26029.herokuapp.com/?id=605213af4a4b516940f0e362"
+      "github": "https://blairntaylor.github.io/workout-tracker/",
+      "heroku": "https://vast-retreat-26029.herokuapp.com/?id=605213af4a4b516940f0e362"
     },
     {
       "id": 3,
-      "image": "project3.png",
+      "image": "../img/codepic.png",
       "title": "Code Quiz",
-      "description": "....",
-      "GitHub": "Link here",
-      "Heroku":"..."
+      "description": "Dynamic timed coding quiz app that runs in the browser using HTML, CSS and JavaScript. If the user gets an answer wrong the timer subtracts time and when the questions are all answers the game is over.",
+      "github": "https://blairntaylor.github.io/quiz-challenge/"
     },
     {
       "id": 4,
-      "image": "project4.png",
+      "image": "../img/plannerpic.png",
       "title": "Day Planner",
-      "description": "....",
-      "link": "Link here"
+      "description": "Calendar app that allows the user to save events featuring dynamically updated HTML and CSS, also using mment.js library.",
+      "github": "https://blairntaylor.github.io/day-planner/"
     },
     {
       "id": 5,
-      "image": "project5.png",
-      "title": "README Generator",
-      "description": "Created a high-quality README.md generator using the Inquirer package.  Application is started with node.index.js is entered into teh command line terminal.",
-      "link": "https://github.com/blairntaylor/readme-generator"
+      "image": "burgerpic",
+      "title": "Npde Express Burger",
+      "description": "Create a buger logger with MySQL, Node, Express, Handlebars and ORM. The app lets the user submit a burger name, it is displayed on the left side, and when the user clicks the Devour button is moves to the right side of page.",
+      "github": "https://blairntaylor.github.io/burger/",
+      "heroku": "https://shrouded-badlands-22473.herokuapp.com/"
     },
     {
       "id": 6,
-      "image": "project6.png",
+      "image": "budgetpic",
       "title": "Progressive Budget",
-      "description": "....",
-      "link": "Link here"
+      "description": "Complete code for functionality for an offline budget tracker. The user will be able to log deposit and expense amounts to balance their budget with or without an internet connection.",
+      "github": " https://blairntaylor.github.io/budget-tracker/",
+      "heroku":"https://thawing-badlands-97963.herokuapp.com/"
     }
   ]

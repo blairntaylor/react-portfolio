@@ -1,26 +1,26 @@
-import React, { Component } from "react";
+import React from "react";
 import Card from "./Card";
-import Wrapper from "./Wrapper";
 import projects from "./projects.json";
 
-class Portfolio extends Component {
-  state = { projects };
-
-  render() {
-    return (
-      <Wrapper>
-        {this.state.projects.map((projects) => (
-          <Card
-            id={projects.id}
-            image={projects.image}
-            title={projects.title}
-            description={projects.description}
-            link={projects.link}
-          />
-        ))}
-      </Wrapper>
-    );
-  }
+function Portfolio() {
+  return (
+    <div className="container">
+      <section>
+        {projects.map((project) => {
+          return (
+            <Card
+              title={project.title}
+              image={project.image}
+              description={project.description}
+              github={project.github}
+              heroku={project.heroku}
+              key={project.id}
+            />
+          );
+        })}
+      </section>
+    </div>
+  );
 }
 
 export default Portfolio;

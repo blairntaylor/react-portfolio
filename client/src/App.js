@@ -9,6 +9,7 @@ import Images from "./components/Images";
 import Wrapper from "./components/Wrapper";
 import Profile from "./components/Profile";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/" component={Images} />
           <Route exact path="/profile" component={Profile} />
           <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
         </Wrapper>
         <Footer />
       </div>
